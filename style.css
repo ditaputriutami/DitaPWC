@@ -1,0 +1,91 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fef9ef;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8e1e1e;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #8e1e1e, #f4a261);
+  color: white;
+  padding: 3rem 2rem;
+}
+
+/* Menu Section */
+.menu {
+  padding: 3rem 2rem;
+  background-color: #ffe4c1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: #fef9ef;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  justify-items: center;
+  padding: 20px;
+  margin-top: 6px;
+  padding: 60px;
+  float: left;
+  text-align: justify;
+  font-size: 25px;
+}
+.card img {
+  float: left;
+  width: 600px;
+  height: 400px;
+  padding: 5px;
+  border: 1px solid #eeeeee;
+}
+
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  background: #f4a261;
+  padding: 3rem 2rem;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #8e1e1e;
+  color: white;
+}

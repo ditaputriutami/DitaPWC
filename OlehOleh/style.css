@@ -1,0 +1,67 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fef9ef;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8e1e1e;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #f4a261;
+}
+
+.TokoOlehOleh {
+  text-align: center;
+  background-color: #fff4e6;
+  padding: 3rem 2rem;
+}
+
+.OlehOleh {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin: 1rem;
+  width: calc(40% - 2rem);
+  height: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  font-size: 17px;
+}
+.OlehOleh h3 {
+  text-align: center;
+}
+
+.OlehOleh img {
+  float: left;
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+  border: 1px solid #eeeeee;
+}
